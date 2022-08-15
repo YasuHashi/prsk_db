@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	th:fragment="layout(title,body)">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" th:href="@{/css/common.css}" />
+<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
+<title th:replace="${title}">prsk_db</title>
+</head>
+<body>
+	<!--/* ヘッダー */-->
+	<header>
+		<div th:replace="~{common/header :: layout-header}"></div>
+	</header>
+
+	<div class="container">
+		<!--/* サイドバー */-->
+		<aside>
+			<div th:replace="~{common/sidebar :: layout-sidebar}"></div>
+		</aside>
+		<!--/* メイン */-->
+		<article>
+			<div th:replace="${body}"></div>
+		</article>
+	</div>
+
+	<!--/* フッター */-->
+	<footer>
+		<div th:replace="~{common/footer :: layout-footer}"></div>
+	</footer>
+</body>
+</html>

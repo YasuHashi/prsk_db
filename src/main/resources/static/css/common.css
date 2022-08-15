@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'Montserrat';
+	src: url(../font/Montserrat-Medium.otf);
+}
+/* ---- 共通 ---- */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+	min-height: 100%;
+	position: relative;
+	font-family: Montserrat;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body, div, p, h1, h2, h3, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+table {
+	width:100%;
+	border-collapse: collapse;
+	margin: 0px auto 20px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.container {
+	min-width: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+	float: none;
+}
+
+article > section {
+	margin-top: 15px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* ---- ヘッダー ---- */
+header {
+	padding: 10px 0;
+	height: 120px;
+}
+
+/* ---- サイドバー ---- */
+aside {
+	float: left;
+	width: 20%;
+	min-height: 100vh;
+}
+
+/* ---- メインコンテンツ ---- */
+article {
+	float: right;
+	width: 80%;
+	padding-left: 2%;
+	padding-bottom: 80px;
+}
+
+/* ---- フッター ---- */
+footer {
+	background-color: #a9fff4;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+small {
+	text-shadow: 1px 1px 1px #fff;
+	font-size: 8pt;
+}
