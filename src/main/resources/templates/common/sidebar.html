@@ -6,7 +6,21 @@
 <body>
 <div th:fragment="layout-sidebar">
 
-	<p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+	<h2>CARACTER</h2>
+	<ul>
+		<li><a th:href="@{showCaracterList}">PROFILE</a></li>
+		<li><a th:href="@{showCorrelation}">CORRELATION</a></li>
+		<li><a th:href="@{showRankExperience}">RANK EXPERIENCE</a></li>
+	</ul>
+	<h2><a th:href="@{showUnitList}">UNIT</a></h2>
+	<h2><a th:href="@{showMemberList}">MEMBER</a></h2>
+	<h2><a th:href="@{showEventList}">EVENT</a></h2>
+	<h2><a th:href="@{showMusicList}">MUSIC</a></h2>
+	<h2>OTHER</h2>
+	<ul>
+		<li><a th:href="@{showEreaItem}">EREA ITEM</a></li>
+		<li><a th:href="@{showMyPage}">MYPAGE</a></li>
+	</ul>
 
 </div>
 </body>
