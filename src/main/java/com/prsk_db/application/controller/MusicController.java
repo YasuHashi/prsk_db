@@ -17,7 +17,7 @@ public class MusicController {
 	@RequestMapping(path = "/music", method = RequestMethod.GET)
 	public String showMusicList() {
 		
-		return "music/list";
+		return "html/music/list";
 		
 	}
 

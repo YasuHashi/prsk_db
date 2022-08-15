@@ -17,7 +17,7 @@ public class CharacterController {
 	@RequestMapping(path = "/character", method = RequestMethod.GET)
 	public String showCharacterList() {
 
-		return "character/list";
+		return "html/character/list";
 
 	}
 
@@ -25,7 +25,7 @@ public class CharacterController {
 	@RequestMapping(path = "/character/correlation", method = RequestMethod.GET)
 	public String showCorrelation() {
 
-		return "character/correlation";
+		return "html/character/correlation";
 
 	}
 
@@ -33,7 +33,7 @@ public class CharacterController {
 	@RequestMapping(path = "/character/rank_experience", method = RequestMethod.GET)
 	public String showRankExperience() {
 
-		return "character/rank_experience";
+		return "html/character/rank_experience";
 
 	}
 

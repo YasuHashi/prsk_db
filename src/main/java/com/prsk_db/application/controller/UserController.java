@@ -17,7 +17,7 @@ public class UserController {
 	@RequestMapping(path = "/mypage", method = RequestMethod.GET)
 	public String showMyPage() {
 		
-		return "mypage";
+		return "html/mypage";
 		
 	}
 

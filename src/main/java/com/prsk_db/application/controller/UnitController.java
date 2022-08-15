@@ -17,7 +17,7 @@ public class UnitController {
 	@RequestMapping(path = "/unit", method = RequestMethod.GET)
 	public String showUnitList() {
 		
-		return "unit/list";
+		return "html/unit/list";
 		
 	}
 

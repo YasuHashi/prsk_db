@@ -18,7 +18,7 @@ public class TopController {
 	@RequestMapping(path = "/", method = RequestMethod.GET)
 	public String index() {
 		
-		return "index";
+		return "html/index";
 		
 	}
 

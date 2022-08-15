@@ -17,7 +17,7 @@ public class EventController {
 	@RequestMapping(path = "/event", method = RequestMethod.GET)
 	public String showEventList() {
 		
-		return "event/list";
+		return "html/event/list";
 		
 	}
 

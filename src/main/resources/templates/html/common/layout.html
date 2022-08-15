@@ -11,13 +11,13 @@
 <body>
 	<!--/* ヘッダー */-->
 	<header>
-		<div th:replace="~{common/header :: layout-header}"></div>
+		<div th:replace="~{html/common/header :: layout-header}"></div>
 	</header>
 
 	<div class="container">
 		<!--/* サイドバー */-->
 		<aside>
-			<div th:replace="~{common/sidebar :: layout-sidebar}"></div>
+			<div th:replace="~{html/common/sidebar :: layout-sidebar}"></div>
 		</aside>
 		<!--/* メイン */-->
 		<article>
@@ -27,7 +27,7 @@
 
 	<!--/* フッター */-->
 	<footer>
-		<div th:replace="~{common/footer :: layout-footer}"></div>
+		<div th:replace="~{html/common/footer :: layout-footer}"></div>
 	</footer>
 </body>
 </html>

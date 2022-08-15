@@ -17,7 +17,7 @@ public class ItemController {
 	@RequestMapping(path = "/erea_item", method = RequestMethod.GET)
 	public String showItemList() {
 		
-		return "erea_item/list";
+		return "html/erea_item/list";
 		
 	}
 

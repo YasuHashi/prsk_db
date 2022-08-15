@@ -17,7 +17,7 @@ public class MemberController {
 	@RequestMapping(path = "/member", method = RequestMethod.GET)
 	public String showMemberList() {
 		
-		return "member/list";
+		return "html/member/list";
 		
 	}
 
