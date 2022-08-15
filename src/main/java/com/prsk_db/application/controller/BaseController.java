@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
  *  コントローラのベースクラス
  *  継承不要
  *  コントローラ作成時のコピペ用
+ *  ロジックはServiceに委譲してください
  * 
  *  @author name
  */
