@@ -8,18 +8,18 @@
 
 	<h2>CHARACTER</h2>
 	<ul>
-		<li><a th:href="@{showCharacterList}">PROFILE</a></li>
-		<li><a th:href="@{showCorrelation}">CORRELATION</a></li>
-		<li><a th:href="@{showRankExperience}">RANK EXPERIENCE</a></li>
+		<li><a th:href="@{/character}" th:text="PROFILE"></a></li>
+		<li><a th:href="@{/character/correlation}" th:text="CORRELATION"></a></li>
+		<li><a th:href="@{/character/rank_experience}" th:text="RANK EXPERIENCE"></a></li>
 	</ul>
-	<h2><a th:href="@{showUnitList}">UNIT</a></h2>
-	<h2><a th:href="@{showMemberList}">MEMBER</a></h2>
-	<h2><a th:href="@{showEventList}">EVENT</a></h2>
-	<h2><a th:href="@{showMusicList}">MUSIC</a></h2>
+	<h2><a th:href="@{/unit}" th:text="UNIT"></a></h2>
+	<h2><a th:href="@{/member}" th:text="MEMBER"></a></h2>
+	<h2><a th:href="@{/event}" th:text="EVENT"></a></h2>
+	<h2><a th:href="@{/music}" th:text="MUSIC"></a></h2>
 	<h2>OTHER</h2>
 	<ul>
-		<li><a th:href="@{showEreaItem}">EREA ITEM</a></li>
-		<li><a th:href="@{showMyPage}">MYPAGE</a></li>
+		<li><a th:href="@{/erea_item}" th:text="EREA ITEM"></a></li>
+		<li><a th:href="@{/mypage}" th:text="MYPAGE"></a></li>
 	</ul>
 
 </div>
